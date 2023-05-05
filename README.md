@@ -4,6 +4,18 @@ __NOTE: If you want to reproduce the results in the paper, please see [Reproduce
 
 HooVer uses optimistic optimization to solve statistical model checking problems for MDPs.
 
+If you find this project useful, please cite:
+```
+@inproceedings{musavi2021hoover,
+  title={HooVer: A Framework for Verification and Parameter Synthesis in Stochastic Systems using Optimistic Optimization},
+  author={Musavi, Negin and Sun, Dawei and Mitra, Sayan and Dullerud, Geir and Shakkottai, Sanjay},
+  booktitle={2021 IEEE Conference on Control Technology and Applications (CCTA)},
+  pages={923--930},
+  year={2021},
+  organization={IEEE}
+}
+```
+
 ### Requirements
 HooVer uses Python 3. To install the requirements:
 ```
