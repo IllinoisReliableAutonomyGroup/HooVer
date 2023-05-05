@@ -2,7 +2,7 @@
 
 __NOTE: If you want to reproduce the results in the paper, please see [Reproduce.md](Reproduce.md).__
 
-HooVer uses optimistic optimization to solve statistical model checking problems for MDPs.
+HooVer uses optimistic optimization to solve statistical model checking problems for MDPs. The full paper is [available online](https://www.daweisun.me/wp-content/uploads/2021/08/musavi2021.pdf).
 
 If you find this project useful, please cite:
 ```
