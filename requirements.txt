@@ -1,0 +1,7 @@
+numpy
+pympler
+llist
+zmq
+msgpack
+matplotlib
+scipy
