@@ -1,8 +1,8 @@
-# HooVer: a statistical model checking tool with optimistic optimization
+# HooVer: A statistical model checking tool with optimistic optimization
 
-__NOTE: If you want to reproduce the results in the paper, please see [Reproduce.md](Reproduce.md).__
+HooVer is a tool that uses optimistic optimization and ideas from multi-armed bandits theory to solve the model-free, statistical model checking problem for MDPs. HooVer can also be used to perform parameter synthesis. It has been used to analyze systems involving multiple interacting vehicles. HooVer was developed by the [Reliable Autonomy Research Group](https://mitras.ece.illinois.edu/group.html) at [University of Illinois, Urbana-Champaign](https://ece.illinois.edu/). The research was supported by a grant from the National Security Agency's [Science of Security (SOS)](https://cps-vo.org/group/SoS) program. 
 
-HooVer uses optimistic optimization to solve statistical model checking problems for MDPs. The full paper is [available online](https://www.daweisun.me/wp-content/uploads/2021/08/musavi2021.pdf).
+The full paper is [available online](https://www.daweisun.me/wp-content/uploads/2021/08/musavi2021.pdf).
 
 If you find this project useful, please cite:
 ```
@@ -15,6 +15,7 @@ If you find this project useful, please cite:
   organization={IEEE}
 }
 ```
+To reproduce the results in the paper, please see [Reproduce.md](Reproduce.md).__
 
 ### Requirements
 HooVer uses Python 3. To install the requirements:
@@ -100,4 +101,4 @@ The user also has to update ```models/__init__.py``` by adding a line to import 
 
 ### Acknowledgements
 
-The MFTreeSearchCV code base was developed by Rajat Sen: ( https://github.com/rajatsen91/MFTreeSearchCV ) which in-turn was built on the blackbox optimization code base of Kirthivasan Kandasamy: ( https://github.com/kirthevasank )
+The MFTreeSearchCV code base was developed by Rajat Sen: ( https://github.com/rajatsen91/MFTreeSearchCV ) which in-turn was built on the blackbox optimization code base of Kirthivasan Kandasamy: ( https://github.com/kirthevasank ). 
